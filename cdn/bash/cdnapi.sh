@@ -91,8 +91,11 @@ jsonbody=
 verblevel=2
 verbopt="-vSs"
 
-while getopts "j:dH:i:pk:c:a:e:b:v:l:m:Ar" options; do
+while getopts "j:dH:i:pk:c:a:e:b:v:l:m:Ar2" options; do
   case "${options}" in                          
+    2)
+      uribase=/qa2$uribase
+      ;;
     j)
       jsonfn=${OPTARG}
       ;;
@@ -276,7 +279,7 @@ if [ "$method" = "POST" -o "$method" = "PUT" -o "$method" = "PATCH" ]; then
   else
     echo "Method \"$method\" requires a valid json file to be specified after -j"
     echo "                   or a json body specified after -b"
-    exit 1
+#    exit 1
   fi
 fi
 
