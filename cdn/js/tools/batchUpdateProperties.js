@@ -167,7 +167,7 @@ async function findProperties() {
     console.log(`${findStatus.errCnt} have errors.`);
     console.log(`${findStatus.unmatchedCnt} do not match condition.`);
 
-    if (findStatus.cnt > 500) {
+    if (findStatus.cnt > 1500) {
         throw new Error(`Too many properties, please set or refine findFilter in ${process.argv[2]}`);
     }
     if (findStatus.newCnt) {

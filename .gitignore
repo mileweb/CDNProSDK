@@ -1,3 +1,5 @@
 # Ignore only the repo-root "tasks" directory
 /tasks/
 
+### MacOS ###
+.DS_Store
