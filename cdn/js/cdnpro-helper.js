@@ -38,7 +38,7 @@ const buildAuth = function(serverInfo, options) {
         'Authorization': ' Basic '+authData,
         'Date': dateStr,
         'Accept-Encoding': 'gzip',
-        'User-Agent': 'CDNProCLI-js/1.0'
+        'User-Agent': 'CDNProSDK-js/1.0'
       },
       timeout: 10000, //socket connection times out in 10 seconds
       abortOnError: true,  //abort if status code is not 200 or 201

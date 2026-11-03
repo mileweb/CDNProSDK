@@ -7,11 +7,11 @@ The [cdnpro-helper.js](cdnpro-helper.js) file contains the helper functions to g
 # Get Started
 1. Clone the latest files using the following command:
 ```
-git clone https://github.com/mileweb/CDNProCLI.git
+git clone https://github.com/mileweb/CDNProSDK.git
 ```
 2. go to the js directory and install the required packages:
 ```
-cd CDNProCLI/cdn/js
+cd CDNProSDK/cdn/js
 npm install xml2js diff
 ```
 3. Create a file to include the API credentials, for exmaple `SECRET_credential.js`. Open a text editor and put the following content into the file:

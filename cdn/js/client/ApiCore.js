@@ -94,7 +94,7 @@ class ApiCore {
         Authorization: ` Basic ${authData}`,
         Date: dateStr,
         'Accept-Encoding': 'gzip',
-        'User-Agent': 'CDNProCLI-js/1.1',
+        'User-Agent': 'CDNProSDK-js/1.1',
       },
       timeout: 10000,
       abortOnError: true,

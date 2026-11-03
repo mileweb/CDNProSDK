@@ -245,7 +245,7 @@ api_curl_cmd="curl ${verbopt} --url
 			-H 'Date: $DATE'
 			-H 'Content-Type: application/json'
 			-H 'Accept: application/json'
-      -H 'User-Agent: CDNProCLI-bash/1.0'
+      -H 'User-Agent: CDNProSDK-bash/1.0'
 			$headers
 			$resolve
 "
